@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/topics/topics"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000088",
+    "navigationBarTitleText": "doudou",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": false,
+    "backgroundColor": "#EEFFBB"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "pages/index/jacintosh.png",
+      "selectedIconPath": "pages/index/ink.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "iconPath": "pages/logs/rainbow.png",
+      "selectedIconPath": "pages/logs/capsule_2.png",
+      "text": "日志"
+    }],
+    "color": "#CCBBFF",
+    "backgroundColor": "#FFFFFF",
+    "selectedColor": "#00DD00",
+    "borderStyle": "white"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

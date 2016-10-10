@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="weui-cells">
+    <view wx:for="{{answers}}" wx:for-item="answer" class="weui-cell">
+      <div class="weui-cell__bd" data-question-id="{{answer.questionid}}" bindtap="handleTap">
+          <p>{{answer.title}}</p>
+          <p>{{answer.time}}</p>
+          <p>{{answer.summary}}</p>
+        </div>
+    </view>
+  </view>
+</view>
+
+<modal title="标题" confirm-text="confirm" cancel-text="cancel" hidden="{{modalHidden}}" bindconfirm="modalChange" bindcancel="modalChange">
+    这是对话框的内容。
+</modal>

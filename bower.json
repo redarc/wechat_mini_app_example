@@ -1,0 +1,20 @@
+{
+  "name": "doudou",
+  "description": "wechat mini app demo",
+  "main": "app.js",
+  "authors": [
+    "aaron yao"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "weui": "^1.0.0"
+  }
+}
