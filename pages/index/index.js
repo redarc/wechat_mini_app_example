@@ -10,9 +10,9 @@ Page({
     },
     posts: [],
     markers: [{
-      latitude: 23.099994,
+      latitude: 23.099794,
       longitude: 113.324520,
-      name: 'T.I.T 创意园',
+      name: '南京',
       desc: '我现在的位置'
     }],
     covers: [{
